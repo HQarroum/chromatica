@@ -1,0 +1,13 @@
+**/.git/**
+**/.github/**
+**/.vscode/**
+**/node_modules/**
+**/*.psd
+**/*.ai
+**/*.sketch
+**/*.xcf
+**/*.zip
+**/*.tar.gz
+.vscodeignore
+.vscode-test/**
+screenshots/**

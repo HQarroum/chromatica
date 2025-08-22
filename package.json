@@ -4,14 +4,32 @@
   "description": "🎨 A minimalist, elegant, VSCode theme with light and dark variants.",
   "version": "1.0.0",
   "publisher": "HQM",
+  "scripts": {
+    "build:ext": "vsce package --out ./releases/chromatica-1.0.0.vsix"
+  },
   "engines": {
-    "vscode": "^1.84.0"
+    "vscode": "^1.69.0"
   },
   "categories": [
     "Themes"
   ],
   "license": "MIT",
   "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HQarroum/chromatica"
+  },
+  "bugs": {
+    "url": "https://github.com/HQarroum/chromatica/issues"
+  },
+  "homepage": "https://github.com/HQarroum/chromatica",
+  "keywords": [
+    "theme",
+    "vscode",
+    "dark",
+    "light",
+    "coffee"
+  ],
   "contributes": {
     "themes": [
       {
@@ -35,5 +53,8 @@
         "path": "./themes/coffee.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.6.0"
   }
 }
