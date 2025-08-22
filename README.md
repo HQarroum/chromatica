@@ -13,16 +13,16 @@
 </p>
 <br /><br /><br />
 
-## Dusk
-
-<p align="center">
-  <img width="850" src="images/dusk.png" alt="Dusk" />
-</p>
-
 ## Dawn
 
 <p align="center">
   <img width="850" src="images/dawn.png" alt="Dawn" />
+</p>
+
+## Dusk
+
+<p align="center">
+  <img width="850" src="images/dusk.png" alt="Dusk" />
 </p>
 
 ## Midnight
