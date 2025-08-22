@@ -1,0 +1,39 @@
+{
+  "name": "chromatica-theme",
+  "displayName": "Chromatica",
+  "description": "🎨 A minimalist, elegant, VSCode theme with light and dark variants.",
+  "version": "1.0.0",
+  "publisher": "HQM",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Chromatica Dawn",
+        "uiTheme": "vs",
+        "path": "./themes/dawn.json"
+      },
+      {
+        "label": "Chromatica Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dusk.json"
+      },
+      {
+        "label": "Chromatica Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight.json"
+      },
+      {
+        "label": "Chromatica Coffee",
+        "uiTheme": "vs-dark",
+        "path": "./themes/coffee.json"
+      }
+    ]
+  }
+}

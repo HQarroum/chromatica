@@ -1,0 +1,145 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Chromatica Dawn",
+  "type": "light",
+  "colors": {
+    "editor.background": "#FFF9F4",
+    "editor.foreground": "#3E2723",
+    "editorLineNumber.foreground": "#A68D8C",
+    "editorCursor.foreground": "#e9511e",
+    "editor.selectionBackground": "#FFE0E0",
+    "editor.inactiveSelectionBackground": "#F7E8E8",
+    "editorLineNumber.activeForeground": "#3E2723",
+    "activityBar.background": "#FFF9F4",
+    "sideBar.background": "#FFF9F4",
+    "sideBar.foreground": "#3E2723",
+    "titleBar.activeBackground": "#FFF9F4",
+    "titleBar.activeForeground": "#3E2723",
+    "statusBar.background": "#FFF9F4",
+    "statusBar.foreground": "#3E2723",
+    "activityBar.foreground": "#cf6161",
+    "activityBar.inactiveForeground": "#a64e4e",
+    "activityBarBadge.background": "#b15854",
+    "activityBarBadge.foreground": "#FFF9F4",
+    "list.activeSelectionBackground": "#FFE8E0",
+    "list.activeSelectionForeground": "#3E2723",
+    "list.hoverBackground": "#FFF1EC",
+    "button.background": "#b15854",
+    "button.foreground": "#ffffff",
+    "button.secondaryBackground": "#E8C9C4",
+    "button.secondaryForeground": "#3E2723",
+    "badge.background": "#b15854",
+    "badge.foreground": "#FFF9F4",
+    "input.background": "#FFF9F4",
+    "input.foreground": "#3E2723",
+    "scrollbarSlider.background": "#E8C9C4",
+    "notificationCenterHeader.background": "#FFF9F4",
+    "notificationCenterHeader.foreground": "#3E2723",
+    "notifications.background": "#FFF9F4",
+    "notifications.foreground": "#3E2723",
+    "notificationLink.foreground": "#B5651D",
+    "dropdown.background": "#FFF9F4",
+    "textLink.foreground": "#b15854",
+    "textLink.activeForeground": "#e19942",
+    "focusBorder": "#b15854",
+    "editorSuggestWidget.highlightForeground": "#b15854",
+    "editorSuggestWidget.background": "#FFF9F4",
+    "editorSuggestWidget.selectedBackground": "#FFE0E0",
+    "tab.activeBackground": "#FFF9F4",
+    // Command palette
+    "quickInput.background": "#FFF9F4",
+    "editorHoverWidget.background": "#fff7f4",
+    "editorGroupHeader.tabsBackground": "#FFF9F4",
+    "tab.inactiveBackground": "#FFF9F4",
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "string.comment"
+      ],
+      "settings": {
+        "foreground": "#abaaaa",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage"],
+      "settings": {
+        "foreground": "#920909"
+      }
+    },
+    {
+      "scope": ["string", "constant.other.symbol"],
+      "settings": {
+        "foreground": "#CE75C2"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "number"],
+      "settings": {
+        "foreground": "#f54982"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#e19942"
+      }
+    },
+    {
+      "scope": ["variable", "identifier"],
+      "settings": {
+        "foreground": "#c05c5c"
+      }
+    },
+    {
+      "scope": ["storage.type", "entity.name.type"],
+      "settings": {
+        "foreground": "#ac8477"
+      }
+    },
+    {
+      "scope": ["constant.language", "constant.character"],
+      "settings": {
+        "foreground": "#f15d87"
+      }
+    },
+    {
+      "scope": ["punctuation"],
+      "settings": {
+        "foreground": "#795548"
+      }
+    },
+    {
+      "scope": ["variable.property", "support.variable.property"],
+      "settings": {
+        "foreground": "#4DB6AC"
+      }
+    },
+    {
+      "scope": [
+        "meta.object-literal.key",
+        "meta.object-literal.key.ts",
+        "meta.object-literal.key.js"
+      ],
+      "settings": {
+        "foreground": "#B5651D"
+      }
+    },
+    {
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#b51d1d"
+      }
+    },
+    {
+      "scope": "entity.name.function.proto",
+      "settings": {
+        "foreground": "#B5651D",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}
