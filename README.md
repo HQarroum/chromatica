@@ -5,7 +5,7 @@
   </p>
 
   <p align="center">
-    <sub><samp>Theme | Chromatica<br>
+    <sub><samp>Theme | <a href="https://marketplace.visualstudio.com/items?itemName=HQM.chromatica-theme">Chromatica</a><br>
     &nbsp;&nbsp;&nbsp;Type | Dark &amp; Light<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variants | Coffee, Dawn, Dusk, Midnight
     </sub>
